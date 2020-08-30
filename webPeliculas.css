@@ -1,0 +1,24 @@
+#fila{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#filaForm{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#botonA{
+    margin-left: 18px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 1200px){
+
+    #fila{
+        width: 100%; margin:5px;display:inline-block
+
+    }
+
+}
