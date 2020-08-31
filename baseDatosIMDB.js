@@ -83,7 +83,7 @@ class Movie {
                 "- PRODUCER: " + this.producer + "\n" + 
 
                 "- DISTRIBUTOR: " + this.distributor + "\n" + 
-                
+
                 "- GENRE: " + this.genre 
 
     }
@@ -280,6 +280,14 @@ function ocultarDetalles(foto,detalle){
     document.getElementById(foto).src =""
 
 }
+
+
+function addElement() {
+
+    let newMovie = new Movie()
+}
+
+
 
 
 
