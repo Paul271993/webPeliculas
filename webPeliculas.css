@@ -1,3 +1,4 @@
+
 #fila{
     margin-left: 20px;
     margin-top: 20px;
@@ -22,3 +23,10 @@
     }
 
 }
+
+#card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8, #card9, #card10
+{
+    border: 3px solid;
+    border-color: rgb(204, 198, 198);
+}
+

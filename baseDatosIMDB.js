@@ -58,20 +58,33 @@ class Movie {
     
     toString()
     {
-        return "*  Details of movie = " + "\n" + 
-               "   " + "- TITLE: " + this.title + "\n" + 
-               "   " + "- RELEASE YEAR: " + this.releaseYear + "\n" + 
-               "   " + "- ACTORS: " + this.actors + "\n" + 
-               "   " + "- NATIONALITY: " + this.nationality + "\n" + 
-               "   " + "- DIRECTOR: " + this.director + "\n" + 
-               "   " + "- WRITER: " + this.writer + "\n" + 
-               "   " + "- LANGUAGE: " + this.language + "\n" + 
-               "   " + "- PLATAFORM: " + this.plataform + "\n" + 
-               "   " + "- IS MCU: " + this.isMCU + "\n" + 
-               "   " + "- MAIN CHARACTER NAME: " + this.mainCharacterName + "\n" + 
-               "   " + "- PRODUCER: " + this.producer + "\n" + 
-               "   " + "- DISTRIBUTOR: " + this.distributor + "\n" + 
-               "   " + "- GENRE: " + this.genre 
+        return "*  Details of movie: " + "\n" + 
+
+                "- TITLE: " + this.title + "\n" + 
+
+                "- RELEASE YEAR: " + this.releaseYear + "\n" + 
+
+                "- ACTORS: " + this.actors + "\n" + 
+
+                "- NATIONALITY: " + this.nationality + "\n" + 
+
+                "- DIRECTOR: " + this.director + "\n" + 
+
+                "- WRITER: " + this.writer + "\n" + 
+
+                "- LANGUAGE: " + this.language + "\n" + 
+
+                "- PLATAFORM: " + this.plataform + "\n" + 
+
+                "- IS MCU: " + this.isMCU + "\n" + 
+
+                "- MAIN CHARACTER NAME: " + this.mainCharacterName + "\n" + 
+
+                "- PRODUCER: " + this.producer + "\n" + 
+
+                "- DISTRIBUTOR: " + this.distributor + "\n" + 
+                
+                "- GENRE: " + this.genre 
 
     }
 
@@ -266,9 +279,7 @@ function ocultarDetalles(foto,detalle){
     document.getElementById(detalle).innerHTML = ""
     document.getElementById(foto).src =""
 
-    
-
-
 }
+
 
 
